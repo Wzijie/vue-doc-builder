@@ -1,8 +1,14 @@
 {
   "name": "vue-doc-builder",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Parsing Vue files to generate markdown documents",
   "main": "index.js",
+  "files": [
+    "example",
+    "parser",
+    "render",
+    "utils"
+  ],
   "scripts": {
     "example": "node example/index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -11,7 +17,13 @@
     "type": "git",
     "url": "git+https://github.com/Wzijie/vue-doc-builder.git"
   },
-  "author": "Wzijie@https://github.com/Wzijie",
+  "keywords": [
+    "vue",
+    "vue-component",
+    "docs",
+    "markdown"
+  ],
+  "author": "Wzijie (https://github.com/Wzijie)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/Wzijie/vue-doc-builder/issues"
